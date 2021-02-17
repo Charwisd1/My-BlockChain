@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blockchain</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div>
+            <p>Chain:</p>
+            <ul>
+                {% for i in chain %}
+                    <li>
+                        <p>{{i}}</p>
+                    </li>
+                {% endfor %}
+            </ol>
+            <p>Transactions:</p>
+            <ul>
+                {% for i in transactions %}
+                    <li>
+                        <p>{{i}}</p>
+                    </li>
+                {% endfor %}
+            </ol>
+        </div>
+    </body>
+
+    <style>
+        * {
+            font-style: Roboto;
+            font-size: 15px;
+        }
+    </style>
+</html>
